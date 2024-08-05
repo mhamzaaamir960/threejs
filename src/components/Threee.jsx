@@ -35,6 +35,7 @@ function Threee() {
     const mesh = new THREE.Mesh(geo, mat);
     scene.add(mesh);
 
+    
     const wireMat = new THREE.MeshBasicMaterial({
       color: 0xffffff,
       wireframe: true,
